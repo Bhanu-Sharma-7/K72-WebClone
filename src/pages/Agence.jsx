@@ -20,24 +20,35 @@ const Agence = () => {
     '/images/agence-img-8.jpg'
   ]
 
-  useGSAP(function() {
+  useGSAP(function () {
     gsap.to(imageDivRef.current, {
       scrollTrigger: {
         trigger: imageDivRef.current,
-        start: 'top 24.2%',
-        end: 'top -100%',
+        start: 'top 10%',
+        end: 'top -120%',
         pin: true,
+        pinSpacing: true,
+        pinReparent: true,
+        pinType: 'transform',
+        scrub: 1,
+        anticipatePin: 1,
+        invalidateOnRefresh: true,
         onUpdate: (elem) => {
-          const imageIndex = Math.floor(elem.progress * (imageArray.length - 1))
-          imageRef.current.src = imageArray[imageIndex]
+          let imageIndex;
+          if (elem.progress < 1) {
+            imageIndex = Math.floor(elem.progress * imageArray.length)
+          } else {
+            imageIndex = imageArray.length - 1
+          }
+          console.log(imageRef.current.src = imageArray[imageIndex])
         }
       }
     })
   })
   return (
-    <div>
-      <div className='section1'>
-        <div ref={imageDivRef} className='h-[20vw] w-[15vw] overflow-hidden rounded-3xl absolute top-60 left-[30vw]'>
+    <div className="parent">
+      <div id='page1' className='py-1'>
+        <div ref={imageDivRef} className='absolute h-[20vw] w-[15vw] overflow-hidden rounded-3xl top-60 left-[30vw]'>
           <img ref={imageRef} className='h-full w-full object-cover' src="/images/agence-img-1.jpg" alt="agence-img-1" />
         </div>
         <div className='relative font-[font2]'>
@@ -49,7 +60,7 @@ const Agence = () => {
           </div>
         </div>
       </div>
-      <div className="section2 h-screen">
+      <div id="page2" className="h-screen">
 
       </div>
     </div>

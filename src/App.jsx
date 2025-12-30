@@ -12,7 +12,7 @@ const App = () => {
                 <Route path='/projects' element={<Projects />} />
             </Routes>
         </>
-    )
+    )   
 }
 
 export default App
