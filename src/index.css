@@ -13,3 +13,16 @@
 body {
     overflow-x: hidden;
 }
+
+.moveX {
+    animation: moveAnimation 10s linear infinite;
+}
+
+@keyframes moveAnimation {
+    form {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
