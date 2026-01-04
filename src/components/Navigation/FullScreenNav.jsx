@@ -4,8 +4,8 @@ import React, { useContext, useRef } from 'react'
 import { NavbarContext } from '../../context/NavContext'
 
 const FullScreenNav = () => {
-  const fullNavLinkRef = useRef(null)
-  const fullScreenRef = useRef(null)
+  const fullNavLinksRef = useRef(null)
+    const fullScreenRef = useRef(null)
 
   const [navOpen, setNavOpen] = useContext(NavbarContext)
 
@@ -67,7 +67,7 @@ const FullScreenNav = () => {
     }
   }, [navOpen])
   return (
-    <div ref={fullScreenRef} id='fullScreenNav' className='text-white hidden fullScreenNav h-screen w-full absolute z-50 overflow-hidden'>
+    <div ref={fullScreenRef} id='fullScreenNav' className='text-white hidden fullscreennav h-screen w-full absolute z-50 overflow-hidden'>
       <div className='h-screen w-full fixed'>
         <div className='h-full w-full flex'>
           <div className='stairing h-full w-1/5 bg-red-900'></div>
@@ -77,9 +77,9 @@ const FullScreenNav = () => {
           <div className='stairing h-full w-1/5 bg-red-900'></div>
         </div>
       </div>
-      <div ref={fullNavLinkRef} className='relative'>
-        <div className='flex w-full justify-between p-1 items-start'>
-          <div className='p-4'>
+      <div ref={fullNavLinksRef} className='relative'>
+        <div className='navlink flex w-full justify-between lg:p-5 p-1 items-start'>
+          <div className=''>
             <div className='w-30'>
               <img src="/svgs/NavbarIcon.svg" className='w-36' alt="" />
             </div>
