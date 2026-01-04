@@ -70,11 +70,11 @@ const FullScreenNav = () => {
     <div ref={fullScreenRef} id='fullScreenNav' className='text-white hidden fullscreennav h-screen w-full absolute z-50 overflow-hidden'>
       <div className='h-screen w-full fixed'>
         <div className='h-full w-full flex'>
-          <div className='stairing h-full w-1/5 bg-red-900'></div>
-          <div className='stairing h-full w-1/5 bg-red-900'></div>
-          <div className='stairing h-full w-1/5 bg-red-900'></div>
-          <div className='stairing h-full w-1/5 bg-red-900'></div>
-          <div className='stairing h-full w-1/5 bg-red-900'></div>
+          <div className='stairing h-full w-1/5 bg-black'></div>
+          <div className='stairing h-full w-1/5 bg-black'></div>
+          <div className='stairing h-full w-1/5 bg-black'></div>
+          <div className='stairing h-full w-1/5 bg-black'></div>
+          <div className='stairing h-full w-1/5 bg-black'></div>
         </div>
       </div>
       <div ref={fullNavLinksRef} className='relative'>
@@ -93,9 +93,9 @@ const FullScreenNav = () => {
         </div>
         <div className='py-20' style={{ perspective: "1000px" }}>
           <div className='link relative origin-top border-t-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>Work</h1>
+            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>Work</h1>
             <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
-              <div className='moveX flex items-center'>
+              <div className='moveX flex items-center cursor-pointer'>
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
                 <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
@@ -110,9 +110,9 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className='link relative origin-top border-t-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>agency</h1>
+            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>agency</h1>
             <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
-              <div className='moveX flex items-center'>
+              <div className='moveX flex items-center cursor-pointer'>
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
                 <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
@@ -127,9 +127,9 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className='link relative origin-top border-t-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>contect</h1>
+            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>contect</h1>
             <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
-              <div className='moveX flex items-center'>
+              <div className='moveX flex items-center cursor-pointer'>
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
                 <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
@@ -144,9 +144,9 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className='link relative origin-top border-y-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>blog</h1>
+            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>blog</h1>
             <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
-              <div className='moveX flex items-center'>
+              <div className='moveX flex items-center cursor-pointer'>
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
                 <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
