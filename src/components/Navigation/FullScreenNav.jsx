@@ -86,77 +86,77 @@ const FullScreenNav = () => {
           </div>
           <div onClick={() => {
             setNavOpen(false)
-          }} className='h-32 cursor-pointer w-32 relative'>
-            <div className='absolute h-44 w-1 bg-[#D3FD50] -rotate-45 origin-top'></div>
-            <div className='absolute h-44 w-1 bg-[#D3FD50] right-0 rotate-45 origin-top'></div>
+          }} className='h-20 md:h-32 cursor-pointer w-20 md:w-32 relative'>
+            <div className='absolute h-24 md:h-44 w-1 bg-[#D3FD50] -rotate-45 origin-top'></div>
+            <div className='absolute h-24 md:h-44 w-1 bg-[#D3FD50] right-0 rotate-45 origin-top'></div>
           </div>
         </div>
         <div className='py-20' style={{ perspective: "1000px" }}>
           <div className='link relative origin-top border-t-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>Work</h1>
-            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
+            <h1 className='font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase '>Work</h1>
+            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0 pointer-events-none md:pointer-events-auto'>
               <div className='moveX flex items-center cursor-pointer'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
               <div className='moveX flex items-center'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
             </div>
           </div>
           <div className='link relative origin-top border-t-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>agency</h1>
-            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
+            <h1 className='font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase '>agency</h1>
+            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0 pointer-events-none md:pointer-events-auto'>
               <div className='moveX flex items-center cursor-pointer'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
               <div className='moveX flex items-center'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
             </div>
           </div>
           <div className='link relative origin-top border-t-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>contect</h1>
-            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
+            <h1 className='font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase '>contect</h1>
+            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0 pointer-events-none md:pointer-events-auto'>
               <div className='moveX flex items-center cursor-pointer'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
               <div className='moveX flex items-center'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
             </div>
           </div>
           <div className='link relative origin-top border-y-1 border-white'>
-            <h1 className='font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase '>blog</h1>
-            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0'>
+            <h1 className='font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase '>blog</h1>
+            <div className='moveLink absolute flex text-black bg-[#D3FD50] top-0 pointer-events-none md:pointer-events-auto'>
               <div className='moveX flex items-center cursor-pointer'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
               <div className='moveX flex items-center'>
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
-                <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
-                <img className='h-28 w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-1.png" alt="" />
+                <h2 className='whitespace-nowrap font-[font2] text-[12vw] md:text-[8vw] leading-[0.8] text-center pt-3 uppercase'>See everything</h2>
+                <img className='h-16 md:h-28 w-32 md:w-70 shrink-0 object-cover rounded-full' src="/images/img-2.jpg" alt="" />
               </div>
             </div>
           </div>

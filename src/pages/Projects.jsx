@@ -56,13 +56,13 @@ const Projects = () => {
   })
   return (
     <div className='p-4'>
-      <div className='pt-[45vh]'>
-        <h2 className="font-[font2] text-[10vw] top-[8.5vw] uppercase">Projets</h2>
+      <div className='pt-[30vh] md:pt-[45vh] px-4'>
+        <h2 className="font-[font2] text-[12vw] md:text-[10vw] top-[8.5vw] uppercase">Projets</h2>
       </div>
-      <div className='-mt-20 lol'>
+      <div className='mt-0 md:-mt-20 lol px-4'>
         {
           projects.map(function (elem, idx) {
-            return <div key={ idx } className='hero w-full h-[700px] mb-4 flex gap-4'>
+            return <div key={ idx } className='hero w-full h-auto md:h-[700px] mb-8 md:mb-4 flex flex-col md:flex-row gap-4'>
               <ProjectCard image1={elem.image1} image2={elem.image2} />
             </div>
           })
